@@ -1,0 +1,20 @@
+{
+  "name": "pong-server",
+  "version": "0.9.0",
+  "description": "Pong! It's fun and good for health.",
+  "main": "api/index.js",
+  "scripts": {
+    "dev": "yarn start -p 8000",
+    "start": "nodemon index.js"
+  },
+  "author": "Brian E. Bill",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.12",
+    "aws-sdk": "^2.582.0",
+    "dotenv": "^8.2.0",
+    "graphql": "^0.13.2",
+    "nodemon": "^1.17.5",
+    "winston-loggly-bulk": "^3.0.1"
+  }
+}

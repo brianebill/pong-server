@@ -1,0 +1,14 @@
+{
+  "build": {
+    "env": {
+      "API_VERSION": "@pong-api-version",
+      "ACCESS_KEY_ID": "@pong-access-key",
+      "SECRET_ACCESS_KEY": "@pong-secret"
+    }
+  },
+  "env": {
+    "API_VERSION": "@pong-api-version",
+    "ACCESS_KEY_ID": "@pong-access-key",
+    "SECRET_ACCESS_KEY": "@pong-secret"
+  }
+}

@@ -1,0 +1,6 @@
+module.exports = `
+  type Mutation {
+    putScore(username: String!, score: String!): Score
+    deleteScore(username: String!): Score
+  }
+`;

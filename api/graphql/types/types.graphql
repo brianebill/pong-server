@@ -1,0 +1,11 @@
+module.exports = `
+  type Score {
+    username: String
+    score: String
+    createdAt: String
+  }
+  type ScoresConnection {
+    items: [Score]
+    nextToken: String
+  }
+`;

@@ -1,0 +1,37 @@
+# mutations
+
+mutation putScore($username: String!, $score: Int!) {
+  putScore(username: $username, score: $score) {
+    username
+    score
+    createdAt
+  }
+}
+{
+  "username": "lucky lucy",
+  "score": 12
+}
+
+mutation deleteScore($username: String!) {
+  deleteScore(username: $username) {
+    username
+    score
+    createdAt
+  }
+}
+{
+  "username": "lucky lucy"
+}
+
+
+# queries
+{
+  scanScores {
+    items {
+      username
+      score
+      createdAt
+    }
+  }
+}
+
